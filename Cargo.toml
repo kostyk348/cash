@@ -1,0 +1,12 @@
+[package]
+name = "cash"
+version = "0.1.0"
+edition = "2021"
+description = "cash — трекер расходов: категории в X-Tag, суммы в центах, сводки по дням/месяцам. eml-tag на emlbox (MIME-OS)."
+
+[dependencies]
+emlbox = { git = "https://github.com/kostyk348/mime-os", tag = "v0.1.0" }
+serde_json = "1"
+
+[profile.release]
+opt-level = 3
