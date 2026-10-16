@@ -1,5 +1,8 @@
 # cash — трекер расходов
 
+[![Release](https://img.shields.io/github/v/release/kostyk348/cash?sort=semver&color=blue)](https://github.com/kostyk348/cash/releases)
+[![Last commit](https://img.shields.io/github/last-commit/kostyk348/cash?branch=master)](https://github.com/kostyk348/cash/commits/master)
+
 Категории в X-Tag, суммы в целых копейках (без float), сводки по дням/месяцам.
 Запись — атомарный `.eml` (eml-tag), сводки — header-scan по X-Timestamp диапазонам.
 
